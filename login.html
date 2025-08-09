@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - BiSMA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #3f87a6, #ebf8e1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 300px;
+        }
+        .login-container h2 {
+            margin-bottom: 20px;
+            color: #3f87a6;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            outline: none;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+        input[type="text"]:focus {
+            border-color: #3f87a6;
+            box-shadow: 0 0 5px rgba(63,135,166,0.5);
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #3f87a6;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #336f85;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Login BiSMA</h2>
+        <form>
+            <input type="text" placeholder="Masukkan ID Login" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+</body>
+</html>
